@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.CSS">
+        <title> Document </title>
+        <link rel="icon" href="icono1.png">
+    </head>
+    <body>
+             
+        <h1>
+            <img src="icono1.png" alt="icono" class="icono redondo">
+            FORMULARIO DE DATOS
+        </h1>
+        <label> Usuario</label>
+        <input type="text" name="usuario">
+        <br>
+        <br>
+        <label>Nombres</label>
+        <input type="text" name="nombre1" id="nombres">
+        <br>
+        <br>
+        <label>Apellidos</label>
+        <input type="text" name="apellido1" id="apellidos">
+        <br>
+        <br>
+        <label >contraseña</label>
+        <input type="password" name="contra">
+        <br>
+        <br>
+        <label> correo electronico</label>
+        <input type="email" name="correo">
+        <br> 
+        <br>
+        <label> Edad </label>
+        <input type="number" name="edad">
+        <br>
+        <br>
+        <label> Edad oficial</label>
+        <input type="number" name="edadoficial" min="18" max="65">
+        <br> 
+        <br>
+        <label> puntuacion</label>
+        <input type="number" name="edad" min="5" max="50" step="5">
+        <br>
+        <br>
+        <label>fecha de nacimiento</label> 
+        <input type="date" name="nacimiento">
+        <br>
+        <br>
+        <label>hora de nacimiento</label> 
+        <input type="time" name="nacimiento">
+        <br>
+        <br>
+        <label>color favorito</label> 
+        <input type="color" name="nacimiento">
+        <br>
+        <br>
+        <h2>¿Quien gano el mundial el 2014?</h2>
+        <br>
+        <br>
+        <label > Alemania</label>
+        <input type="radio" name ="pais" value="Alemania">
+        <br>
+        <br>
+        <label > Bolivia </label>
+        <input type="radio" name ="pais" value="Bolivia">
+        <br>
+        <br>
+        <label > Brasil </label>
+        <input type="radio" name ="pais" value="Brasil">
+        <br>
+        <br>
+        <label > Francia </label>
+        <input type="radio" name ="pais" value="Francia">
+        <br>
+        <br>
+        <h2>¿Cuales son peliculas de accion?</h2>
+        <br>
+        <br>
+        <label> juego de tronos</label>
+        <input type="checkbox" name="peliculas" value="juego">
+        <br>
+        <br>
+        <label> rapidos y furiosos</label>
+        <input type="checkbox" name="peliculas" value="rapidos">
+        <br>
+        <br>
+        <label> Interstelar</label>
+        <input type="checkbox" name="peliculas" value="interestelar">
+        <br>
+        <br>
+        <label> El infierno verde</label>
+        <input type="checkbox" name="peliculas" value="infierno">
+        <br>
+        <br>
+        <label>Sentencia de muerte</label>
+        <input type="checkbox" name="peliculas" value="sentencia">
+        <br>
+        <br>
+        <label> Seleccione un archivo</label>
+        <input type="file" name="archivo" accept=".xlsx">
+        <br>
+        <br>
+        <label> Seleccione un valor</label>
+        <input type="range" name="archivo" min="0" max="100" value="50">
+        <br>
+        <br>
+        <button onclick="saludo()">Saludo</button>
+        <p id="mensaje"></p>
+        <label>Nota teorica</label>
+        <input type="number" id="nota_teorica" min="0" max="30">
+        <label>Nota practica</label>
+        <input type="number" id="nota_practica" min="0" max="70">
+        <button onclick="calculo_nota()">Nota</button>
+        <p id="nota_sumada"></p>
+     
+       <script src="script.js"></script>
+    </body>
+</html>
+
+  
